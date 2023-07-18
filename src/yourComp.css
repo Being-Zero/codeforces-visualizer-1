@@ -1,0 +1,72 @@
+/* YourComponent.css */
+
+.table-container {
+  margin: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px;
+  text-align: center; /* Center the content of each cell */
+  border-bottom: 1px solid #ccc;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+}
+
+/* Only the "Tag" column will behave as a pointer */
+.data-table th.clickable-tag {
+  cursor: pointer;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+.clickable-row:hover {
+  background-color: #f9f9f9;
+}
+
+.clickable-row:active {
+  background-color: #eee;
+}
+
+.fixed-values-column {
+  width: 50%; /* Both columns take up 50% width of the table */
+}
+
+/* Additional styles for expanded rows */
+.data-table tr:not(.clickable-row):nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.data-table tr:not(.clickable-row):nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Remove dots from the values in the "Values" column */
+.data-table td.fixed-values-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+#points{
+  cursor: pointer;
+}
+
+#dns{
+  /* background-color: blue; */
+}
+#dns:hover{
+  color: rgb(255, 255, 255);
+  
+}
