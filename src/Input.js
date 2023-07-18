@@ -52,7 +52,6 @@ const Input = () => {
                     });
                     setDataMap(tagCountMap);
                     // setDataMap(tagCountMap)
-                    console.log(dataMap)
         } catch (error) {
             console.error("Error fetching JSON data:", error);
             // setJsonData(null);
