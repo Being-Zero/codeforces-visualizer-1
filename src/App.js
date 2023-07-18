@@ -3,7 +3,6 @@ const App = () => {
 
   return (
     <div>
-      
       <Input/>
     </div>
   );
